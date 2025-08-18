@@ -5,8 +5,6 @@ class HTMLNode():
             self.children = children
             self.props = props
         
-
-
     def __eq__(self, other):
         if self.value == other.value and self.tag == other.tag and self.children == other.children and self.props == other.props:
             return True
