@@ -13,7 +13,7 @@ class BlockType(Enum):
     QUOTE = "quote"
     UNORDERED_LIST = "unordered_list"
     ORDERED_LIST = "ordered_list"
-
+    
 
 def markdown_to_blocks(markdown):
     blocks = markdown.split("\n\n")
